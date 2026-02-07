@@ -12,22 +12,27 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
     ```text
     git init
     ```
+    
 2. Sambungkan folder laptop ke GitHub
     ```text
     git remote add origin [link-repository-kamu]
     ```
+    
 3. Ubah nama branch utama menjadi 'main' (standar baru GitHub)
     ```text
     git branch -M main
     ```
+    
 4. Masukkan semua file ke antrean upload
     ```text
     git add .
     ```
+    
 5. Simpan perubahan (Commit)
     ```text
     git commit -m "Message"
     ```
+    
 6. Push (Upload) ke GitHub
     ```text
     git push -u origin main
@@ -43,6 +48,7 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
     ```text
     git pull origin main
     ```
+    
 2. Buat branch baru
     ```text
     git checkout -b [Nama-branch]
@@ -57,10 +63,12 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
     ```text
     git add .
     ```
+    
 3. Simpan perubahan (Commit)
     ```text
     git commit -m "Message"
     ```
+    
 4. Push (Upload) ke branch baru
     ```text
     git push origin [Nama-branch]
