@@ -15,7 +15,7 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
     
 2. Sambungkan folder laptop ke GitHub
     ```text
-    git remote add origin [link-repository-kamu]
+    git remote add origin [link-repository]
     ```
     
 3. Ubah nama branch utama menjadi 'main' (standar baru GitHub)
@@ -44,12 +44,17 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
 <hr>
 
 ### Langkah-langkah untuk repository yang sudah di-clone dan sudah terhubung.
-1. Pastikan kodinganmu sinkron dengan teman tim (opsional tapi disarankan):
+1. Copy repository dari github:
+    ```text
+    git clone [link-repository]
+    ```
+    
+2. Pastikan kodinganmu sinkron dengan teman tim (opsional tapi disarankan):
     ```text
     git pull origin main
     ```
     
-2. Buat branch baru
+3. Buat branch baru
     ```text
     git checkout -b [Nama-branch]
     ```
@@ -59,17 +64,17 @@ Dokumen ini menyajikan panduan yang praktis untuk memulai kerja sama dalam proye
     git checkout [Nama-branch]
     ```
 
-2. Masukkan semua file ke antrean upload
+4. Masukkan semua file ke antrean upload
     ```text
     git add .
     ```
     
-3. Simpan perubahan (Commit)
+5. Simpan perubahan (Commit)
     ```text
     git commit -m "Message"
     ```
     
-4. Push (Upload) ke branch baru
+6. Push (Upload) ke branch baru
     ```text
     git push origin [Nama-branch]
     ```
